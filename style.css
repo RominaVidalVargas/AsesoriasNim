@@ -1,4 +1,218 @@
-h1 {
-    color: green;
-    size: 20px;
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #F5CFDE;
 }
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.containerDos{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    height: 250px;
+    width: 1800px;
+}
+.cartel{
+    height: 200px;
+    width: 400px;
+    border-radius: 40%;
+}
+.emprender{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    position: absolute;
+    background-color: none;
+    left: 30px;
+    top: 1px;
+    background: none;
+}
+.ayuda{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    position: absolute;
+    background-color: none;
+    right: 30px;
+    top: 1px;
+    background: none;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #896573;
+    width: 1620px;
+    justify-content: space-around;
+    height: 30px;
+    padding: 15px;
+
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    background-color: #896573;
+    width: 1620px;
+    color: #F5CFDE;
+    padding: 10px;
+}
+.button{
+    background-color: #896573;
+    color: white;   
+    border: none;
+    margin: 5px 10px 5px 10px;
+    text-shadow: 1px 1px 2px #000000;
+    font-size: 20px;
+}
+.root{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.main{
+    margin: 40px;
+}
+.box{
+    background-color: #896573;
+    color: #FDF2F6;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 25px;
+    margin: 18px;
+    width: 800px;
+    border: 2px #F5CFDE dashed;
+    border-radius: 25%;
+}
+.servicios{
+    background-color: #896573;
+    color: #FDF2F6;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    padding: 20px;
+    margin: 10px;
+    width: 800px;
+    border: 2px #F5CFDE dashed;
+    border-radius: 25%;
+    align-items: center;
+}
+.titulo {
+    color: #F5CFDE;
+    background: none;
+    text-shadow: 1px 1px 2px black;
+}
+.titulo2 {
+    color: #896573;
+    background: none;
+    text-shadow: 1px 1px 2px black;
+}
+.parrafo{
+    background: none;
+    color: #F5CFDE;
+}
+p{
+    background: none;
+    color: #896573;
+    font-weight:500;
+}
+
+ul, li{
+    background: none;
+    color: #FDF2F6;
+    font-weight:900;
+}
+.lista{
+    background: none;
+    color: #896573;
+    font-weight:900;
+}
+.mision{
+    height: 300px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+.foto-mision{
+    height: 150px;
+    width: 200px;
+    border-radius: 40%;
+}
+
+.vision{
+    height: 300px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+
+}
+.foto-vision{
+    height: 150px;
+    width: 200px;
+    border-radius: 40%;
+    background: none;
+}
+.nosotras{
+    height: 300px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+
+}
+.foto-nosotras{
+    height: 150px;
+    width: 200px;
+    border-radius: 40%;
+    background: none;
+}
+.contacto{
+    height: 300px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    
+}
+.foto-contacto{
+    height: 150px;
+    width: 200px;
+    border-radius: 40%;
+    background: none;
+}
+.fono, .mapa, .email{
+    height: 30px;
+    width: 30px;
+    background: none;
+    margin: 0 10px 0 0;
+}
+li{
+    list-style:none;
+    padding: 15px;
+}
+
+.creadoras{
+    color:#FDF2F6;
+}
+.flecha{
+    height: 20px;
+    width: 20px;
+    background: none;
+    margin: 0 10px 0 0;
+}
+/*FDF2F6 fondo
+F5CFDE base
+896573 detalle*/
